@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h1 class="display-4 text-center mb-3">Temperature Converter</h1>
+                    <form>
+                        <div class="form-group">
+                            <input type="number" id="celsiusInput" class="form-control form-control-lg" placeholder="Enter celsius...">
+                        </div>
+                    </form>
+                    <div id="output">
+                        <div class="card card-success mb-2">
+                            <div class="card-block">
+                                <h4>Fahrenheit:</h4>
+                                <div id="Fahrenheit-output"></div>
+                            </div>
+                        </div>
+
+                        <div class="card card-primary mb-2">
+                                <div class="card-block">
+                                    <h4>Kelvin:</h4>
+                                    <div id="Kelvin-output"></div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
