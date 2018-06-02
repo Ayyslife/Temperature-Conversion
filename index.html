@@ -12,9 +12,15 @@
                     <h1 class="display-4 text-center mb-3">Temperature Converter</h1>
                     <form>
                         <div class="form-group">
-                            <input type="number" id="celsiusInput" class="form-control form-control-lg" placeholder="Enter celsius...">
+                            <input type="number" id="inputTemp" class="form-control form-control-lg" placeholder="Enter a temperature...">
                         </div>
                     </form>
+                    <select id="selector" class="mb-3"> 
+                            <option selected = "selected">Select a temperature type</option>
+                            <option value = "1">Celsius</option>
+                            <option value = "2">Fahrenheit</option>
+                            <option value = "3">Kelvin</option>
+                        </select>
                     <div id="output">
                         <div class="card card-success mb-2">
                             <div class="card-block">
@@ -27,6 +33,13 @@
                                 <div class="card-block">
                                     <h4>Kelvin:</h4>
                                     <div id="Kelvin-output"></div>
+                                </div>
+                            </div>
+
+                            <div class="card card-danger mb-2">
+                                <div class="card-block">
+                                    <h4>Celsius:</h4>
+                                    <div id="Celsius-output"></div>
                                 </div>
                             </div>
 
